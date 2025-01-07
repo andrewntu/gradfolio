@@ -1,5 +1,5 @@
-/* publication Page */
-.publicationContainer {
+/* Project Page */
+.ProjectContainer {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
@@ -12,13 +12,13 @@
   margin: -1rem -1rem;
 }
 
-.publicationTile {
+.projectTile {
   /* Minimum width of 200px and grow to fit available space */
   flex: 1 0 200px;
   border-radius: 15px;
-  background: $publicationbox;
+  background: $projectbox;
   @media (prefers-color-scheme: dark) {
-    background: $publicationbox-dark;
+    background: $projectbox-dark;
   }
   height: 200px;
   width: 100%;
@@ -26,55 +26,55 @@
   display: table;
 }
 
-.publicationTile a {
+.projectTile a {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
 }
 
-.publicationTile a span {
+.projectTile a span {
   display: flex;
   justify-content: center;
 }
 
-.publicationTile a span h2 {
+.projectTile a span h2 {
   font-size: 1.5rem;
   padding: 1rem;
-  color: $publicationbox-text;
+  color: $projectbox-text;
 }
 
-.publicationTile:hover a span h2 {
+.projectTile:hover a span h2 {
   display: none;
 }
 
-.publicationTile a span p {
+.projectTile a span p {
   display: none;
 }
 
-.publicationTile:hover a span p {
+.projectTile:hover a span p {
   font-size: 1.2rem;
   display: flex;
   padding: 1rem;
-  color: $publicationbox-text;
+  color: $projectbox-text;
 }
 
 @include media-query($on-phone) {
   @media screen and (max-width: $on-phone){
 
-    .publicationTile {
+    .projectTile {
       height: 80px;
     }
 
-    .publicationTile a span h2 {
+    .projectTile a span h2 {
       font-size: 1.2rem;
     }
 
-    .publicationTile:hover a span p {
+    .projectTile:hover a span p {
       display: none;
     }
 
-    .publicationTile:hover a span h2 {
+    .projectTile:hover a span h2 {
       display: flex;
     }
 
@@ -85,19 +85,19 @@
 @include media-query($on-palm) {
   @media screen and (max-width: $on-palm){
 
-    .publicationTile {
+    .projectTile {
       height: 100px;
     }
 
-    .publicationTile a span h2 {
+    .projectTile a span h2 {
       font-size: 1.3rem;
     }
 
-    .publicationTile:hover a span p {
+    .projectTile:hover a span p {
       display: none;
     }
 
-    .publicationTile:hover a span h2 {
+    .projectTile:hover a span h2 {
       display: flex;
     }
 
