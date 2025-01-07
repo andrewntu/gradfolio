@@ -1,7 +1,7 @@
 ---
 title:
 layout: default
-permalink: /publication/
+permalink: /teach/
 published: true
 ---
 
