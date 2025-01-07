@@ -4,7 +4,7 @@ title: Cheng-Nan Liu
 description: Ph.D. candidate | Department of Geology and Geophysics | University of Utah
 
 baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+url: "https://andrewntu.github.io" #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
