@@ -1,6 +1,6 @@
 ### your site title here
 
-title: Cheng-Nan Liu
+title: Cheng-Nan Liu [CV](https://github.com/jitinnair1/gradfolio#installation)
 description: Ph.D. candidate | Department of Geology and Geophysics | University of Utah
 
 baseurl: /gradfolio #name of GitHub repository
@@ -13,15 +13,10 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-twitter: "#"
 linkedin: "#"
-stackoverflow: "#"
 github: "#"
-researchgate: "#"
 orcid: "#"
-quora: "#"
 instagram: "#"
-facebook: "#"
 
 
 # Markdown
